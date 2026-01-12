@@ -9,12 +9,30 @@
         </div>
         <ul class="side-menu metismenu">
             <li>
-                <a class="active" href="index.html"><i class="sidebar-item-icon fa fa-th-large"></i>
+                <a class="active" href="/">
+                    <i class="sidebar-item-icon fa fa-th-large"></i>
                     <span class="nav-label">Dashboard</span>
                 </a>
             </li>
-            <li class="heading">FEATURES</li>
             <li>
+                <a href="/applications">
+                    <i class="sidebar-item-icon fa fa-sticky-note"></i>
+                    <span class="nav-label">Applications</span>
+                </a>
+            </li>
+            <li>
+                <a href="/applications">
+                    <i class="sidebar-item-icon fa fa-user"></i>
+                    <span class="nav-label">Students</span>
+                </a>
+            </li>
+            <li>
+                <a href="/applications">
+                    <i class="sidebar-item-icon fa fa-book"></i>
+                    <span class="nav-label">Journals</span>
+                </a>
+            </li>
+            {{-- <li>
                 <a href="javascript:;"><i class="sidebar-item-icon fa fa-bookmark"></i>
                     <span class="nav-label">Basic UI</span><i class="fa fa-angle-left arrow"></i></a>
                 <ul class="nav-2-level collapse">
@@ -183,7 +201,7 @@
                         </ul>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
         </ul>
     </div>
 </nav>
