@@ -1,1 +1,3 @@
-console.log("this is the idnex .js file")
+console.log(import.meta.env.VITE_APP_URL);
+
+console.log('this is working')
