@@ -1,6 +1,6 @@
-@extends('index')
+@extends('components.admin-layout')
 @section('title', 'Profile')
-@section('content')
+@section('admin_content')
 
 <h1>this is the profile</h1>
 
